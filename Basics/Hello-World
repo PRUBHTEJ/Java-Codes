@@ -1,0 +1,14 @@
+// Class name can be modified as per convenience in Java.
+// This program prints hello world.
+
+public class CB{
+
+public static void main(string[] args){
+
+    System.out.println("Hello,World!!");
+    
+    System.out.print("Hello,World!!");
+    
+    // When we use System.out.println(): The EOL automatically goes to the next line to print the next line whereas in System.out.print(): it stays in the same line & then we have to mention \n , manually.
+    }
+ }
