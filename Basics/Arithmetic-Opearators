@@ -1,0 +1,25 @@
+// This Program describes some basic arithmetic operators in Java.
+// Few are: +, -, *, /
+
+public class ArithDemo{
+
+    int x = 10;
+
+    int y = 20;
+
+    System.out.println("Sum is" + (x+y));
+
+    System.out.println("Mult. is" +(x*y));
+
+    System.out.println("Div is "+ (x/y));
+
+    System.out.println("Subt. is " +(x-y));
+    
+    }
+
+}
+   
+   
+    
+
+
