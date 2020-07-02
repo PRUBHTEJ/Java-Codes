@@ -1,0 +1,19 @@
+// This program outputs whether the given no. is Even or Odd.
+
+public class EvenODD {
+
+	public static void main(String[] args) {
+		
+		int a = 21;
+		
+		if (a%2==0) {
+			System.out.println("The no is Even");
+		}
+		else {
+			System.out.println("The no is Odd");
+		}
+
+	}
+
+}
+// In this case, we'll get the output as " The no is odd".
