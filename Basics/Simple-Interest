@@ -1,0 +1,20 @@
+// This program prints out the Simple interest, wherein The P, R & T are given or can be inputed by the user.
+
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+			
+		int princ = 1000;
+		
+		int rate = 5;
+		
+		int time = 2;
+		
+		int SI = (princ*rate*time)/100;
+		
+		System.out.println("The simple interest is:"+ SI);
+
+	}
+
+}
