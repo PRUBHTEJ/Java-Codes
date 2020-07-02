@@ -1,10 +1,18 @@
 // This program outputs whether the given no. is Even or Odd.
 
+import java.util.Scanner;
+
 public class EvenODD {
 
 	public static void main(String[] args) {
 		
-		int a = 21;
+		
+		
+		Scanner scn  = new Scanner(System.in);
+		
+		System.out.println("Enter the value for a");
+		
+		int a = scn.nextInt(); 
 		
 		if (a%2==0) {
 			System.out.println("The no is Even");
@@ -16,4 +24,5 @@ public class EvenODD {
 	}
 
 }
+
 // In this case, we'll get the output as " The no is odd".
