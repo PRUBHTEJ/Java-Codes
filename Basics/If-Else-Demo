@@ -1,0 +1,21 @@
+// This program depicts how to if-else loop works in Java.
+
+public class IfElseDemo{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        
+        if (a>b){
+        
+        System.out.println("In if");
+        
+        }
+        else{
+        
+        System.out.println("In else");
+        }
+        
+       } 
+     }  
+     
+ // In this case the output will be "In else"    
