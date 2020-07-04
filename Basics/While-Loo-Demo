@@ -1,0 +1,18 @@
+// In this program, we can see how to while loop runs.
+
+public class LoopDemo {
+
+	public static void main(String[] args) {
+		
+		int a = 9;
+		int i = 0;
+		while(i<100) {
+			System.out.println(a);
+			i++;
+		}
+
+	}
+
+}
+
+// In this program, we'll be be printing the no."9" a 100 times
