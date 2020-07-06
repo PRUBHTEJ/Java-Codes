@@ -1,0 +1,42 @@
+//This program prints the fibonacci series till "n", where "n" is a constant, is user defined.
+
+import java.util.Scanner;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter the value of n");
+		 
+		Scanner scn = new Scanner(System.in);
+		
+    int n = scn.nextInt();
+		
+		int i=0;
+		
+    int fib1 = 0;
+		
+    int fib2 = 1;
+		
+    int fib3;
+		
+    System.out.println(fib1);
+		
+    System.out.println(fib2);
+		
+    while(i <= n ) {
+			
+			fib3 =fib2 + fib1;
+			
+			System.out.println(fib3);
+			
+			i=i+1;
+			
+			fib1 = fib2;
+			
+			fib2 = fib3;
+			}
+
+	}
+
+}
