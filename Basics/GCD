@@ -1,0 +1,31 @@
+// This program takes the user input for the Divisor & the Dividend and gives the GCD as output.
+
+import java.util.Scanner;
+
+public class GCD {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter the value for the dividend");
+		Scanner scn = new Scanner(System.in);
+		int dividend = scn.nextInt();
+		
+		System.out.println("Enter the value for the divisor");
+		
+		Scanner scn1 = new Scanner(System.in);
+		int divisor = scn1.nextInt();
+		
+		while(dividend % divisor != 0) {
+			
+			int rem = dividend % divisor;
+			
+			dividend = divisor;
+			
+			divisor = rem;
+			
+		}
+		
+		System.out.println("GCD is "+ divisor);
+	}
+
+}
