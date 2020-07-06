@@ -1,29 +1,30 @@
 //This program prints the fibonacci series till "n", where "n" is a constant, is user defined.
 
-public class fibonacci {
+import java.util.Scanner;
+
+public class GCD {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Enter the value of n");
-		 
+		System.out.println("Enter the value for the dividend");
 		Scanner scn = new Scanner(System.in);
-		int n = scn.nextInt();
+		int dividend = scn.nextInt();
 		
-		int i=0;
-		int a = 0;
-		int b = 1;
-		while(i <= n ) {
+		System.out.println("Enter the value for the divisor");
+		
+		int divisor = scn.nextInt();
+		
+		while(dividend % divisor != 0) {
 			
-		System.out.println(a);
+			int rem = dividend % divisor;
 			
-		int sum  = a+b;
+			dividend = divisor;
 			
-		a = b;
-		b = sum;
+			divisor = rem;
 			
-		i=i+1;
-	        }
-
+		}
+		
+		System.out.println("GCD is "+ divisor);
 	}
 
 }
