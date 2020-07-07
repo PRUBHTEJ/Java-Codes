@@ -1,0 +1,10 @@
+//In this program, the for loop will run infinitely, since we haven't declared any restrictive conditions.
+public class InfForLoop {
+
+	public static void main(String[] args) {
+		
+		for (;  ; ) {
+			System.out.println("Hello,World!!!");
+		}
+	}
+}
