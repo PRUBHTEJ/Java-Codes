@@ -1,0 +1,33 @@
+/* In this program, we can print a pattern wherein the no. of rows and columns is same.
+
+for example, if n=5 is entered by the user, we get:
+*****
+*****
+*****
+*****
+*****
+*/
+
+package Patterns;
+
+import java.util.Scanner;
+
+public class pattern1 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the no. of rows & col's. ");
+        
+		Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        
+        for (int i=0; i<n; i++) {
+        	for (int j=0; j<n; j++) {
+        		
+        		System.out.print("*");
+        	}
+        	
+        	System.out.print("\n");
+        }
+	  }
+
+}
