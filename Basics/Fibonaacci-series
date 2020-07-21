@@ -2,29 +2,31 @@
 
 import java.util.Scanner;
 
-public class GCD {
+public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Enter the value for the dividend");
-		Scanner scn = new Scanner(System.in);
-		int dividend = scn.nextInt();
-		
-		System.out.println("Enter the value for the divisor");
-		
-		int divisor = scn.nextInt();
-		
-		while(dividend % divisor != 0) {
-			
-			int rem = dividend % divisor;
-			
-			dividend = divisor;
-			
-			divisor = rem;
-			
-		}
-		
-		System.out.println("GCD is "+ divisor);
+		int first = 0;
+    int second = 1;
+
+    int n, third = 0, i = 0;
+    Scanner scn = new Scanner(System.in);
+    System.out.println("Enter the term upto which you want to print the fibinacci series");
+
+    n = scn.nextInt();
+    System.out.println("Fibinacci series till "+ n+ " is: ");
+    System.out.println(first);
+
+    System.out.println(second);
+
+    while(i<n){
+      third = first + second;
+      System.out.println(third);
+
+      first = second;
+      second = third;
+      i++;
+    }
 	}
 
 }
