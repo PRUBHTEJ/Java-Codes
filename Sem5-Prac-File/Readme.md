@@ -1,4 +1,4 @@
-This part of the repo contains the programs that I'll be implementing during my 5th semester as a part of Java practicals
+This part of the repo contains the programs that I'll be implementing during my 5th semester as a part of GGSIPU's course-work.
 
 I've implemented the following programs until now:
 
