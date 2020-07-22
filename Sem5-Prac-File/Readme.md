@@ -9,3 +9,5 @@ I've implemented the following programs until now:
 2. [To print the prime numbers till the nth term](https://github.com/PRUBHTEJ/Java-Codes/blob/master/Sem5-Prac-File/To%20print%20prime%20numbers%20till%20%22n%22)
 
 3. [To print the fibonacci series till the nth term](https://github.com/PRUBHTEJ/Java-Codes/blob/master/Basics/Fibonaacci-series)
+
+4. [To find the avg. marks of "n" students, calculate their percentages & assign each one of them a grade]()
