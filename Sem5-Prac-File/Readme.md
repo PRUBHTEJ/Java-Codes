@@ -10,4 +10,4 @@ I've implemented the following programs until now:
 
 3. [To print the fibonacci series till the nth term](https://github.com/PRUBHTEJ/Java-Codes/blob/master/Basics/Fibonaacci-series)
 
-4. [To find the avg. marks of "n" students, calculate their percentages & assign each one of them a grade]()
+4. [To find the avg. marks of "n" students, calculate their percentages & assign each one of them a grade](https://github.com/PRUBHTEJ/Java-Codes/blob/master/Sem5-Prac-File/TO%20find%20the%20avg.%20marks%20of%20%22n%22%20students%2C%20calc.%20their%20%20percentages%20%26%20assign%20them%20grades)
