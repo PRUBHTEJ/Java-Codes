@@ -1,0 +1,29 @@
+// This program demonstrates the concept of nested classes.
+
+class Main {
+
+  private int b = 5;
+  
+  public class MainInner{
+    
+    void show(){
+      
+      System.out.println("Calling the inner class from the outer class");
+      
+      System.out.println("output is "+ b);
+
+    }
+  }
+
+  public static void main(String[] args) {
+    
+    Main obj = new Main();
+    
+    System.out.println("Use of inner class");
+    
+    Main.MainInner obj2 = obj.new MainInner();
+    
+    obj2.show();
+
+  }
+}
