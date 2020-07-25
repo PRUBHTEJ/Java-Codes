@@ -15,3 +15,5 @@ I've implemented the following programs until now:
 5. [To find the greatest of three numbers](https://github.com/PRUBHTEJ/Java-Codes/blob/master/Sem5-Prac-File/Greatest%20of%20three%20numbers)
 
 6. [To implement the concept of Stacks & Queues]()
+
+7. [To implement the concept a nested class]()
