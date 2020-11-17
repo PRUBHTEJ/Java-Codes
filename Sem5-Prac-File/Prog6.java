@@ -9,5 +9,6 @@ for(i=1;i<=n;i++)
 s=s*i;
 }
 System.out.println("Factorial of number is:"+s);
+System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
 }
 }

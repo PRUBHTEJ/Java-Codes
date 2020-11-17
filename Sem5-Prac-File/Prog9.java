@@ -14,8 +14,6 @@ public class Prog9 {
         System.out.println("Using Iterative method");
         for(int i=0; i<=number; i++){
             if(i==number){
-
-
             System.out.println(fibonacci2(i) +" ");
         }
         }
@@ -23,13 +21,7 @@ public class Prog9 {
         System.out.println("Using recursion");
         System.out.println(fibonacci(number-1));
 
-            
-
-
-        
-  
-    
-    } 
+         } 
   
 
     //Recursive method
@@ -43,9 +35,6 @@ public class Prog9 {
         return fibonacci(number-1) + fibonacci(number -2); 
           
     }
-  
-
-
     //Iterative Method
     public static int fibonacci2(int number){
 

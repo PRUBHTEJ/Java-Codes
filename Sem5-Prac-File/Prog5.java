@@ -1,12 +1,15 @@
-class Prog5{
-	public static void main(String args[]){
-		int sum = 0;
-		int i;
-		for(i=0; i<=args.length; i++){
-			sum = sum+Integer.parseInt(args[i]);
-		}
-
-	
-	System.out.println("sum = "+sum);
+class Prog5
+{
+      public static void main(String ar[])
+      {
+            int x,y,s;
+ 
+            x=Integer.parseInt(ar[0]);
+            y=Integer.parseInt(ar[1]);
+ 
+            s=x+y;
+            System.out.println("sum of " + x + " and " + y +" is " +s);
+      
+	System.out.println("Made by\nPrubhtej Singh\n07113203118\nIT2");
 	}
 }

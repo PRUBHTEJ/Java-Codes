@@ -46,6 +46,8 @@ class fact
 
     factorial f3=f2;
     System.out.println(f3.f);
+
+    System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
     
 
 }

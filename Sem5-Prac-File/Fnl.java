@@ -6,7 +6,7 @@ final class A{
 	}
 }
 
-class fnl{
+class Fnl{
 
 
 	public static void main(String args[]){

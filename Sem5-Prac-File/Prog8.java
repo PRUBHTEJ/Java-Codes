@@ -16,7 +16,7 @@ public class Prog8{
 		}
 
 		else{
-			d = b*b-4*a*c;
+			d = (b*b)-(4*a*c);
             if (d<0){
             	System.out.println("The roots are complex, hence there is no real solution");
             	r1 = (-b-Math.sqrt(d))/(2*a);
@@ -39,6 +39,8 @@ public class Prog8{
            System.out.println("The square roots are:");
            System.out.println(r1);
            System.out.println(r2);
+
+           System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
        }
 		}
 

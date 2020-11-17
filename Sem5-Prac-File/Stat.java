@@ -4,10 +4,10 @@ public class Stat{
      s1.showData();
      Student s2 = new Student();
      s2.showData();
-     //Student.b++;
-     //s1.showData();
+     System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
+   }
   }
-}
+
 
 class Student {
 int a; //initialized to zero
@@ -21,7 +21,6 @@ static int b; //initialized to zero only when class is loaded not for each objec
    public void showData(){
       System.out.println("Value of a = "+a);
       System.out.println("Value of b = "+b);
-   }
-
-
 }
+}
+   

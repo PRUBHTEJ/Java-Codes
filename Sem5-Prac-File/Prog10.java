@@ -29,5 +29,6 @@ class Prog10
       }	
       System.out.println("Prime numbers from 1 to n are :");
       System.out.println(primeNumbers);
+      System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
    }
 }

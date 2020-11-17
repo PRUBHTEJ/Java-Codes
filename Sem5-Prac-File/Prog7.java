@@ -16,5 +16,7 @@ public class Prog7{
          	System.out.println("Y is the biggest out of the three");
          else
          	System.out.println(" Z is the biggest out of the three");
+
+         System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
          }
 	}

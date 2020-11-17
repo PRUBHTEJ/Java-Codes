@@ -16,5 +16,6 @@ class Cu1{
     Student b = new Student();
     a.printName();
     b.printName();
+    System.out.println("Made By\nPrubhtej Singh\n07113203118\nIT2");
   }
 }
